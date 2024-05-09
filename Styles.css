@@ -1,0 +1,113 @@
+body
+{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+nav {
+    border: 10px solid black;
+    padding: 10px;
+    margin: 0px;
+    width: 1000px;
+    height: 100px;
+    background-color:#0a6b0a;
+    display: flex;
+    justify-content: space-around;
+    line-height: 60px;
+}
+
+
+.box {
+    width: 150px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center; 
+}
+
+header {
+    width: 1000px;
+    height: 300px;
+    background-color: rgb(65, 147, 255);
+    border: 10px solid black;
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 90px;
+}
+
+
+.banner {
+    width: 800px;
+    height: 300px;
+    background-color: white;
+    text-align: center; 
+    justify-content: space-around;
+    line-height: 300px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+
+.login, .logo, .form {
+    width: 200px;
+    height: 100px;
+    background-color: #f0f0f0;
+    margin: 5px;
+    text-align: center; 
+    justify-content: space-around;
+    line-height: 90px;
+}
+
+main {
+    width: 1000px;
+    height: 500px;
+    border: 10px solid black;
+    padding: 10px;
+    margin: 0px;
+    background-color: rgb(130, 138, 102);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.aside1 {
+    width: 200px;
+    background-color: white;
+    margin-right: 10px;
+    text-align: center;
+    justify-content: space-around;
+    line-height: 500px;
+}
+
+article {
+    width: 500px;
+    background-color: white;
+    text-align: center; 
+    justify-content: space-around;
+    line-height: 500px;
+}
+
+.aside2 {
+    background-color: white;
+    flex-grow: 1;
+    margin-left: 10px;
+    text-align: center; 
+    justify-content: space-around;
+    line-height: 500px;
+}
+
+footer {
+    width: 1000px;
+    height: 50px;
+    border: 10px solid black;
+    padding: 10px;
+    margin: 0px;
+    background-color: rgb(255, 187, 0);
+    text-align: center; 
+    justify-content: space-around;
+    line-height: 50px;
+}
